@@ -1,4 +1,4 @@
-﻿# Terms of Reference for the Project "TopicTester"
+﻿# Terms of Reference for the Project "TopicTest"
 
 The original text of the test task was found while googling the search query **"junior Python developer test task"** 
 
