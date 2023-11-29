@@ -1,4 +1,4 @@
-# Topic Test - a testing service.
+# TopicTest - a testing service.
 
 The original text of the test task was found while googling the search query **"junior Python developer test task"** 
 
