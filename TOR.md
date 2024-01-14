@@ -2,11 +2,11 @@
 
 The original text of the test task was found while googling the search query **"junior Python developer test task"** 
 
-Here's the link:  https://qna.habr.com/q/212981
+[Here's the link](https://qna.habr.com/q/212981)
 
 ---
 
-### Here's the edited and more understandable version of the text:
+### Here's the translated, edited and more understandable version of the text:
 
 We need to create a straightforward testing service covering various topics. This involves questions with multiple answer options, where one or more options can be correct. These questions are organized into tests that users can take to view their results.
 
@@ -44,6 +44,7 @@ Requirements for the project:
 The database structure can be created using either the built-in `manage.py syncdb` or migrations via South (which would be a plus). Front-end requirements are flexible, and the interface can be designed based on personal preference, using frameworks like Twitter Bootstrap if desired.
 
 ---
+
 ### Here's the original text:
 
 Одно из заданий, которое давал джуниорам:  

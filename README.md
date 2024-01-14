@@ -2,9 +2,11 @@
 
 The original text of the test task was found while googling the search query **"junior Python developer test task"** 
 
-Here's the link:  https://qna.habr.com/q/212981
+[Here's the link](https://qna.habr.com/q/212981)
 
 ---
+
+### Here's the translated and edited text:
 
 We need to create a straightforward testing service covering various topics. This involves questions with multiple answer options, where one or more options can be correct. These questions are organized into tests that users can take to view their results. The testing service should be implemented using Django.
 
