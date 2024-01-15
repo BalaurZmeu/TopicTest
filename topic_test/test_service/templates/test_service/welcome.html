@@ -1,17 +1,14 @@
 <html>
 <head>
-    <title>Welcome to Your Website</title>
+    <title>TopicTest</title>
 </head>
 <body>
-    <h1>Welcome to Your Website</h1>
-    <p>Some information about the website...</p>
-
-    {% if user.is_authenticated %}
-        <p>You are logged in as {{ user.username }}.</p>
-        <a href="{% url 'user_cabinet' %}">Go to Your Cabinet</a>
-    {% else %}
-        <a href="{% url 'login' %}">Login</a>
-        <a href="{% url 'register' %}">Register</a>
-    {% endif %}
+    <h1>Welcome to TopicTest</h1>
+    <p>On this website registered users can take any of the tests.<br>
+    Click "Login" if you're already registered.</p>
+    <input type="button" value="Login"><br><br>
+    <input type="button" value="Register">
+    <p><a href="/admin">Click on the link you're an admin</a> and you want to create, modify or manage tests.</p>
+<a href="/tests">Tests</a>
 </body>
 </html>
