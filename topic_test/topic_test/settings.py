@@ -13,7 +13,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 
 # SECURITY WARNING: keep the secret key used in production secret!
-from .secrets import SECRET_KEY
+# generate a key and paste it inside the '' quotemarks
+# or use this -h6n3+w)@p6)y8zmodzmj31v87h#(xn-0_2-0^^$0%6vmiwf-g
+SECRET_KEY = ''
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
