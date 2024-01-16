@@ -1,14 +1,17 @@
 <html>
 <head>
-    <title>TopicTest</title>
+  <title>TopicTest</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'style/topic_test.css' %}">
 </head>
 <body>
-    <h1>Welcome to TopicTest</h1>
-    <p>On this website registered users can take any of the tests.<br>
-    Click "Login" if you're already registered.</p>
-    <input type="button" value="Login"><br><br>
-    <input type="button" value="Register">
-    <p><a href="/admin">Click on the link you're an admin</a> and you want to create, modify or manage tests.</p>
+  <h1>Welcome to TopicTest</h1>
+  <p>On this website registered users can take
+  any of the tests.<br>
+  Click "Login" if you're already registered.</p>
+  <input type="button" value="Login"><br><br>
+  <input type="button" value="Register">
+  <p><a href="/admin">Admin page</a></p>
 <a href="/tests">Tests</a>
 </body>
 </html>
