@@ -1,5 +1,8 @@
 # TopicTest - a testing service.
 
+### WORK IN PROGRESS
+### The project is not finished
+
 The original text of the test task was found while googling the search query **"junior Python developer test task"** 
 
 [Here's the link](https://qna.habr.com/q/212981)
