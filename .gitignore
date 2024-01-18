@@ -1,4 +1,3 @@
 venv
-/topic_test/topic_test/secrets.py
 /topic_test/db.sqlite3
-/topic_test/settings_local.py
+/topic_test/topic_test/settings_local.py
