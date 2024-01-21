@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # the test_service app
     'test_service.apps.TestServiceConfig',
+    'nested_inline',
 ]
 
 MIDDLEWARE = [

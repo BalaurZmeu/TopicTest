@@ -1,24 +1,22 @@
 from django.contrib import admin
+from nested_inline.admin import NestedStackedInline, NestedModelAdmin
+from test_service.models import *
 
-from .forms import QuestionFormSet
-from .models import TestSuite, Question, Answer
-
-class AnswerInline(admin.TabularInline):
+class AnswerInline(NestedStackedInline):
     model = Answer
-    formset = QuestionFormSet
-    min_num = 3
-    max_num = 5
-    extra = 1
+    fk_name = 'level'
+    extra = 0
 
-class QuestionInline(admin.StackedInline):
+class QuestionInline(NestedStackedInline):
     model = Question
-    extra = 1
+    fk_name = 'level'
+    extra = 0
+    inlines = [AnswerInline]
 
-@admin.register(TestSuite)
-class TestSuiteAdmin(admin.ModelAdmin):
+class TestSuiteAdmin(NestedModelAdmin):
+    model = TestSuite
     inlines = [QuestionInline]
 
-@admin.register(Question)
-class QuestionAdmin(admin.ModelAdmin):
-    inlines = [AnswerInline]
-    list_filter = ['test_suite']
+
+admin.site.register(TestSuite, TestSuiteAdmin)
+
