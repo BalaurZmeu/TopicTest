@@ -1,0 +1,360 @@
+[
+  {
+    "model": "test_service.testsuite",
+    "pk": 3,
+    "fields": {
+      "name": "HTML Knowledge Test",
+      "description": "Test your knowledge of HTML with this quiz."
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 21,
+    "fields": {
+      "level": 3,
+      "text": "What does HTML stand for?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 61,
+    "fields": {
+      "level": 21,
+      "text": "HyperText Markup Language",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 62,
+    "fields": {
+      "level": 21,
+      "text": "High-Level Text Manipulation Language",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 63,
+    "fields": {
+      "level": 21,
+      "text": "Hyperlink and Text Management Language",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 22,
+    "fields": {
+      "level": 3,
+      "text": "Which HTML tag is used for creating a hyperlink?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 64,
+    "fields": {
+      "level": 22,
+      "text": "<a>",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 65,
+    "fields": {
+      "level": 22,
+      "text": "<hlink>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 66,
+    "fields": {
+      "level": 22,
+      "text": "<link>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 23,
+    "fields": {
+      "level": 3,
+      "text": "What does the HTML element <em> represent?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 67,
+    "fields": {
+      "level": 23,
+      "text": "Emphasized text",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 68,
+    "fields": {
+      "level": 23,
+      "text": "End marker",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 69,
+    "fields": {
+      "level": 23,
+      "text": "Embedded content",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 24,
+    "fields": {
+      "level": 3,
+      "text": "Which HTML tag is used for creating an unordered list?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 70,
+    "fields": {
+      "level": 24,
+      "text": "<ul>",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 71,
+    "fields": {
+      "level": 24,
+      "text": "<ol>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 72,
+    "fields": {
+      "level": 24,
+      "text": "<li>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 25,
+    "fields": {
+      "level": 3,
+      "text": "What is the purpose of the HTML <head> element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 73,
+    "fields": {
+      "level": 25,
+      "text": "Contains meta-information about the HTML document",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 74,
+    "fields": {
+      "level": 25,
+      "text": "Defines the main content of the HTML document",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 75,
+    "fields": {
+      "level": 25,
+      "text": "Represents a header in the document",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 26,
+    "fields": {
+      "level": 3,
+      "text": "Which attribute is used to specify the character encoding of an HTML document?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 76,
+    "fields": {
+      "level": 26,
+      "text": "charset",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 77,
+    "fields": {
+      "level": 26,
+      "text": "encoding",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 78,
+    "fields": {
+      "level": 26,
+      "text": "htmlcharset",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 27,
+    "fields": {
+      "level": 3,
+      "text": "What does the HTML element <img> represent?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 79,
+    "fields": {
+      "level": 27,
+      "text": "Image",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 80,
+    "fields": {
+      "level": 27,
+      "text": "Link",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 81,
+    "fields": {
+      "level": 27,
+      "text": "List",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 28,
+    "fields": {
+      "level": 3,
+      "text": "What is the purpose of the HTML <div> element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 82,
+    "fields": {
+      "level": 28,
+      "text": "Defines a division or a section in an HTML document",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 83,
+    "fields": {
+      "level": 28,
+      "text": "Represents a hyperlink",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 84,
+    "fields": {
+      "level": 28,
+      "text": "Creates an ordered list",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 29,
+    "fields": {
+      "level": 3,
+      "text": "Which HTML attribute is used to provide additional information about an element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 85,
+    "fields": {
+      "level": 29,
+      "text": "title",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 86,
+    "fields": {
+      "level": 29,
+      "text": "style",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 87,
+    "fields": {
+      "level": 29,
+      "text": "class",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 30,
+    "fields": {
+      "level": 3,
+      "text": "What is the purpose of the HTML <br> element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 88,
+    "fields": {
+      "level": 30,
+      "text": "Inserts a line break",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 89,
+    "fields": {
+      "level": 30,
+      "text": "Creates a bold text",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 90,
+    "fields": {
+      "level": 30,
+      "text": "Defines a block of code",
+      "is_correct": false
+    }
+  }
+]

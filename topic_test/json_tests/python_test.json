@@ -1,0 +1,360 @@
+[
+  {
+    "model": "test_service.testsuite",
+    "pk": 2,
+    "fields": {
+      "name": "Python Programming Test",
+      "description": "Test your knowledge of Python programming language with this quiz."
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 11,
+    "fields": {
+      "level": 2,
+      "text": "What is the output of 'print(3 * 4)'?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 31,
+    "fields": {
+      "level": 11,
+      "text": "12",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 32,
+    "fields": {
+      "level": 11,
+      "text": "7",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 33,
+    "fields": {
+      "level": 11,
+      "text": "0",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 12,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'if __name__ == '__main__':' statement in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 34,
+    "fields": {
+      "level": 12,
+      "text": "It checks if the script is being run as the main program and not imported as a module.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 35,
+    "fields": {
+      "level": 12,
+      "text": "It defines a new Python function.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 36,
+    "fields": {
+      "level": 12,
+      "text": "It is used to declare a Python class.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 13,
+    "fields": {
+      "level": 2,
+      "text": "What does the 'len()' function in Python do?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 37,
+    "fields": {
+      "level": 13,
+      "text": "Returns the length (number of items) of an object.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 38,
+    "fields": {
+      "level": 13,
+      "text": "Prints the length of the object to the console.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 39,
+    "fields": {
+      "level": 13,
+      "text": "Defines the length of a new Python list.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 14,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'pass' statement in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 40,
+    "fields": {
+      "level": 14,
+      "text": "It is a null operation, indicating that nothing should happen.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 41,
+    "fields": {
+      "level": 14,
+      "text": "It raises an exception.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 42,
+    "fields": {
+      "level": 14,
+      "text": "It terminates the program.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 15,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'break' statement in Python loops?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 43,
+    "fields": {
+      "level": 15,
+      "text": "Terminates the loop prematurely.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 44,
+    "fields": {
+      "level": 15,
+      "text": "Skips the current iteration and continues with the next one.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 45,
+    "fields": {
+      "level": 15,
+      "text": "Resumes the loop from the beginning.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 16,
+    "fields": {
+      "level": 2,
+      "text": "What does the 'map' function do in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 46,
+    "fields": {
+      "level": 16,
+      "text": "Applies a given function to all items in an input list and returns an iterator of the results.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 47,
+    "fields": {
+      "level": 16,
+      "text": "Removes items from a list based on a given condition.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 48,
+    "fields": {
+      "level": 16,
+      "text": "Sorts the items in a list in ascending order.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 17,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'try', 'except', and 'finally' blocks in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 49,
+    "fields": {
+      "level": 17,
+      "text": "Used for exception handling. 'try' contains the code that might raise an exception, 'except' handles the exception, and 'finally' specifies code that will be executed no matter what.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 50,
+    "fields": {
+      "level": 17,
+      "text": "Defines a loop structure.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 51,
+    "fields": {
+      "level": 17,
+      "text": "Declares a function.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 18,
+    "fields": {
+      "level": 2,
+      "text": "How do you open and read a file in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 52,
+    "fields": {
+      "level": 18,
+      "text": "with open('filename.txt', 'r') as file: content = file.read()",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 53,
+    "fields": {
+      "level": 18,
+      "text": "file = open('filename.txt', 'read'); content = file.read()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 54,
+    "fields": {
+      "level": 18,
+      "text": "open('filename.txt', 'r') read content",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 19,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'lambda' function in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 55,
+    "fields": {
+      "level": 19,
+      "text": "It allows the creation of anonymous functions.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 56,
+    "fields": {
+      "level": 19,
+      "text": "It defines a variable with constant value.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 57,
+    "fields": {
+      "level": 19,
+      "text": "It represents the starting point of a program.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 20,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'lambda' function in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 58,
+    "fields": {
+      "level": 20,
+      "text": "It is used to create anonymous functions.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 59,
+    "fields": {
+      "level": 20,
+      "text": "It defines a new class.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 60,
+    "fields": {
+      "level": 20,
+      "text": "It imports external modules.",
+      "is_correct": false
+    }
+  }
+]
