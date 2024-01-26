@@ -1,0 +1,1434 @@
+[
+  {
+    "model": "test_service.testsuite",
+    "pk": 1,
+    "fields": {
+      "name": "Django Fundamentals Quiz",
+      "description": "This quiz tests your foundational knowledge of Django, a powerful Python web framework. Covering essential concepts like models, URL patterns, templates, and migrations, this quiz is designed to reinforce your understanding of Django's core components."
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 1,
+    "fields": {
+      "level": 1,
+      "text": "What is Django?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 1,
+    "fields": {
+      "level": 1,
+      "text": "A JavaScript library",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 2,
+    "fields": {
+      "level": 1,
+      "text": "A Python web framework",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 3,
+    "fields": {
+      "level": 1,
+      "text": "An operating system",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 2,
+    "fields": {
+      "level": 1,
+      "text": "What is the purpose of Django models?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 4,
+    "fields": {
+      "level": 2,
+      "text": "Manage database schema and data",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 5,
+    "fields": {
+      "level": 2,
+      "text": "Handle user interface design",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 6,
+    "fields": {
+      "level": 2,
+      "text": "Control browser behavior",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 3,
+    "fields": {
+      "level": 1,
+      "text": "Which command is used to create a new Django project?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 7,
+    "fields": {
+      "level": 3,
+      "text": "python manage.py startapp",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 8,
+    "fields": {
+      "level": 3,
+      "text": "django new project",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 9,
+    "fields": {
+      "level": 3,
+      "text": "django-admin startproject",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 4,
+    "fields": {
+      "level": 1,
+      "text": "What does Django's ORM stand for?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 10,
+    "fields": {
+      "level": 4,
+      "text": "Object-Relational Mapping",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 11,
+    "fields": {
+      "level": 4,
+      "text": "Object-Responsive Module",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 12,
+    "fields": {
+      "level": 4,
+      "text": "Object-Rendering Mechanism",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 5,
+    "fields": {
+      "level": 1,
+      "text": "How are URL patterns defined in Django?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 13,
+    "fields": {
+      "level": 5,
+      "text": "In a separate CSS file",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 14,
+    "fields": {
+      "level": 5,
+      "text": "Using regular expressions in views",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 15,
+    "fields": {
+      "level": 5,
+      "text": "In the urls.py file",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 6,
+    "fields": {
+      "level": 1,
+      "text": "Which template engine does Django use by default?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 16,
+    "fields": {
+      "level": 6,
+      "text": "Jinja",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 17,
+    "fields": {
+      "level": 6,
+      "text": "Mako",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 18,
+    "fields": {
+      "level": 6,
+      "text": "Django Template Language (DTL)",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 7,
+    "fields": {
+      "level": 1,
+      "text": "What is the purpose of Django's migrations?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 19,
+    "fields": {
+      "level": 7,
+      "text": "Managing static files",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 20,
+    "fields": {
+      "level": 7,
+      "text": "Handling database schema changes",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 21,
+    "fields": {
+      "level": 7,
+      "text": "Controlling user authentication",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 8,
+    "fields": {
+      "level": 1,
+      "text": "How can you create a superuser in Django admin?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 22,
+    "fields": {
+      "level": 8,
+      "text": "python manage.py createsuperuser",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 23,
+    "fields": {
+      "level": 8,
+      "text": "python manage.py adminuser",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 24,
+    "fields": {
+      "level": 8,
+      "text": "django create superuser",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 9,
+    "fields": {
+      "level": 1,
+      "text": "What does Django's middleware do?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 25,
+    "fields": {
+      "level": 9,
+      "text": "Handles URL routing",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 26,
+    "fields": {
+      "level": 9,
+      "text": "Processes requests and responses globally",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 27,
+    "fields": {
+      "level": 9,
+      "text": "Manages database connections",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 10,
+    "fields": {
+      "level": 1,
+      "text": "Which command is used to apply database migrations in Django?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 28,
+    "fields": {
+      "level": 10,
+      "text": "python manage.py migrate",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 29,
+    "fields": {
+      "level": 10,
+      "text": "django update database",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 30,
+    "fields": {
+      "level": 10,
+      "text": "migrate database",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.testsuite",
+    "pk": 2,
+    "fields": {
+      "name": "Python Programming Test",
+      "description": "Test your knowledge of Python programming language with this quiz."
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 11,
+    "fields": {
+      "level": 2,
+      "text": "What is the output of 'print(3 * 4)'?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 31,
+    "fields": {
+      "level": 11,
+      "text": "12",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 32,
+    "fields": {
+      "level": 11,
+      "text": "7",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 33,
+    "fields": {
+      "level": 11,
+      "text": "0",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 12,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'if __name__ == '__main__':' statement in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 34,
+    "fields": {
+      "level": 12,
+      "text": "It checks if the script is being run as the main program and not imported as a module.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 35,
+    "fields": {
+      "level": 12,
+      "text": "It defines a new Python function.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 36,
+    "fields": {
+      "level": 12,
+      "text": "It is used to declare a Python class.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 13,
+    "fields": {
+      "level": 2,
+      "text": "What does the 'len()' function in Python do?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 37,
+    "fields": {
+      "level": 13,
+      "text": "Returns the length (number of items) of an object.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 38,
+    "fields": {
+      "level": 13,
+      "text": "Prints the length of the object to the console.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 39,
+    "fields": {
+      "level": 13,
+      "text": "Defines the length of a new Python list.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 14,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'pass' statement in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 40,
+    "fields": {
+      "level": 14,
+      "text": "It is a null operation, indicating that nothing should happen.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 41,
+    "fields": {
+      "level": 14,
+      "text": "It raises an exception.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 42,
+    "fields": {
+      "level": 14,
+      "text": "It terminates the program.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 15,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'break' statement in Python loops?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 43,
+    "fields": {
+      "level": 15,
+      "text": "Terminates the loop prematurely.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 44,
+    "fields": {
+      "level": 15,
+      "text": "Skips the current iteration and continues with the next one.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 45,
+    "fields": {
+      "level": 15,
+      "text": "Resumes the loop from the beginning.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 16,
+    "fields": {
+      "level": 2,
+      "text": "What does the 'map' function do in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 46,
+    "fields": {
+      "level": 16,
+      "text": "Applies a given function to all items in an input list and returns an iterator of the results.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 47,
+    "fields": {
+      "level": 16,
+      "text": "Removes items from a list based on a given condition.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 48,
+    "fields": {
+      "level": 16,
+      "text": "Sorts the items in a list in ascending order.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 17,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'try', 'except', and 'finally' blocks in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 49,
+    "fields": {
+      "level": 17,
+      "text": "Used for exception handling. 'try' contains the code that might raise an exception, 'except' handles the exception, and 'finally' specifies code that will be executed no matter what.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 50,
+    "fields": {
+      "level": 17,
+      "text": "Defines a loop structure.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 51,
+    "fields": {
+      "level": 17,
+      "text": "Declares a function.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 18,
+    "fields": {
+      "level": 2,
+      "text": "How do you open and read a file in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 52,
+    "fields": {
+      "level": 18,
+      "text": "with open('filename.txt', 'r') as file: content = file.read()",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 53,
+    "fields": {
+      "level": 18,
+      "text": "file = open('filename.txt', 'read'); content = file.read()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 54,
+    "fields": {
+      "level": 18,
+      "text": "open('filename.txt', 'r') read content",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 19,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'lambda' function in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 55,
+    "fields": {
+      "level": 19,
+      "text": "It allows the creation of anonymous functions.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 56,
+    "fields": {
+      "level": 19,
+      "text": "It defines a variable with constant value.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 57,
+    "fields": {
+      "level": 19,
+      "text": "It represents the starting point of a program.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 20,
+    "fields": {
+      "level": 2,
+      "text": "What is the purpose of the 'lambda' function in Python?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 58,
+    "fields": {
+      "level": 20,
+      "text": "It is used to create anonymous functions.",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 59,
+    "fields": {
+      "level": 20,
+      "text": "It defines a new class.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 60,
+    "fields": {
+      "level": 20,
+      "text": "It imports external modules.",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.testsuite",
+    "pk": 3,
+    "fields": {
+      "name": "HTML Knowledge Test",
+      "description": "Test your knowledge of HTML with this quiz."
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 21,
+    "fields": {
+      "level": 3,
+      "text": "What does HTML stand for?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 61,
+    "fields": {
+      "level": 21,
+      "text": "HyperText Markup Language",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 62,
+    "fields": {
+      "level": 21,
+      "text": "High-Level Text Manipulation Language",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 63,
+    "fields": {
+      "level": 21,
+      "text": "Hyperlink and Text Management Language",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 22,
+    "fields": {
+      "level": 3,
+      "text": "Which HTML tag is used for creating a hyperlink?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 64,
+    "fields": {
+      "level": 22,
+      "text": "<a>",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 65,
+    "fields": {
+      "level": 22,
+      "text": "<hlink>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 66,
+    "fields": {
+      "level": 22,
+      "text": "<link>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 23,
+    "fields": {
+      "level": 3,
+      "text": "What does the HTML element <em> represent?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 67,
+    "fields": {
+      "level": 23,
+      "text": "Emphasized text",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 68,
+    "fields": {
+      "level": 23,
+      "text": "End marker",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 69,
+    "fields": {
+      "level": 23,
+      "text": "Embedded content",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 24,
+    "fields": {
+      "level": 3,
+      "text": "Which HTML tag is used for creating an unordered list?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 70,
+    "fields": {
+      "level": 24,
+      "text": "<ul>",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 71,
+    "fields": {
+      "level": 24,
+      "text": "<ol>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 72,
+    "fields": {
+      "level": 24,
+      "text": "<li>",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 25,
+    "fields": {
+      "level": 3,
+      "text": "What is the purpose of the HTML <head> element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 73,
+    "fields": {
+      "level": 25,
+      "text": "Contains meta-information about the HTML document",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 74,
+    "fields": {
+      "level": 25,
+      "text": "Defines the main content of the HTML document",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 75,
+    "fields": {
+      "level": 25,
+      "text": "Represents a header in the document",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 26,
+    "fields": {
+      "level": 3,
+      "text": "Which attribute is used to specify the character encoding of an HTML document?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 76,
+    "fields": {
+      "level": 26,
+      "text": "charset",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 77,
+    "fields": {
+      "level": 26,
+      "text": "encoding",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 78,
+    "fields": {
+      "level": 26,
+      "text": "htmlcharset",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 27,
+    "fields": {
+      "level": 3,
+      "text": "What does the HTML element <img> represent?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 79,
+    "fields": {
+      "level": 27,
+      "text": "Image",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 80,
+    "fields": {
+      "level": 27,
+      "text": "Link",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 81,
+    "fields": {
+      "level": 27,
+      "text": "List",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 28,
+    "fields": {
+      "level": 3,
+      "text": "What is the purpose of the HTML <div> element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 82,
+    "fields": {
+      "level": 28,
+      "text": "Defines a division or a section in an HTML document",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 83,
+    "fields": {
+      "level": 28,
+      "text": "Represents a hyperlink",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 84,
+    "fields": {
+      "level": 28,
+      "text": "Creates an ordered list",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 29,
+    "fields": {
+      "level": 3,
+      "text": "Which HTML attribute is used to provide additional information about an element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 85,
+    "fields": {
+      "level": 29,
+      "text": "title",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 86,
+    "fields": {
+      "level": 29,
+      "text": "style",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 87,
+    "fields": {
+      "level": 29,
+      "text": "class",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 30,
+    "fields": {
+      "level": 3,
+      "text": "What is the purpose of the HTML <br> element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 88,
+    "fields": {
+      "level": 30,
+      "text": "Inserts a line break",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 89,
+    "fields": {
+      "level": 30,
+      "text": "Creates a bold text",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 90,
+    "fields": {
+      "level": 30,
+      "text": "Defines a block of code",
+      "is_correct": false
+    }
+  },  
+  {
+    "model": "test_service.testsuite",
+    "pk": 4,
+    "fields": {
+      "name": "CSS Knowledge Test",
+      "description": "Test your knowledge of CSS with this quiz."
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 31,
+    "fields": {
+      "level": 4,
+      "text": "What does CSS stand for?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 91,
+    "fields": {
+      "level": 31,
+      "text": "Cascading Style Sheets",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 92,
+    "fields": {
+      "level": 31,
+      "text": "Computer Style Sheets",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 93,
+    "fields": {
+      "level": 31,
+      "text": "Colorful Style Sheets",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 32,
+    "fields": {
+      "level": 4,
+      "text": "Which CSS property is used to change the text color of an element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 94,
+    "fields": {
+      "level": 32,
+      "text": "color",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 95,
+    "fields": {
+      "level": 32,
+      "text": "text-color",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 96,
+    "fields": {
+      "level": 32,
+      "text": "font-color",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 33,
+    "fields": {
+      "level": 4,
+      "text": "Which CSS property is used to set the background color of an element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 97,
+    "fields": {
+      "level": 33,
+      "text": "background-color",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 98,
+    "fields": {
+      "level": 33,
+      "text": "bgcolor",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 99,
+    "fields": {
+      "level": 33,
+      "text": "bg-color",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 34,
+    "fields": {
+      "level": 4,
+      "text": "What does the CSS property 'margin' define?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 100,
+    "fields": {
+      "level": 34,
+      "text": "Space outside the border of an element",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 101,
+    "fields": {
+      "level": 34,
+      "text": "Space inside the border of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 102,
+    "fields": {
+      "level": 34,
+      "text": "Border thickness",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 35,
+    "fields": {
+      "level": 4,
+      "text": "Which CSS property is used to change the font size of an element?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 103,
+    "fields": {
+      "level": 35,
+      "text": "font-size",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 104,
+    "fields": {
+      "level": 35,
+      "text": "text-size",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 105,
+    "fields": {
+      "level": 35,
+      "text": "size",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 36,
+    "fields": {
+      "level": 4,
+      "text": "What is the purpose of the CSS property 'padding'?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 106,
+    "fields": {
+      "level": 36,
+      "text": "Space inside the border, between the border and the content of an element",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 107,
+    "fields": {
+      "level": 36,
+      "text": "Space outside the border of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 108,
+    "fields": {
+      "level": 36,
+      "text": "Border thickness",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 37,
+    "fields": {
+      "level": 4,
+      "text": "What does the CSS property 'display' control?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 109,
+    "fields": {
+      "level": 37,
+      "text": "The display behavior of an element",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 110,
+    "fields": {
+      "level": 37,
+      "text": "The background color of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 111,
+    "fields": {
+      "level": 37,
+      "text": "The font size of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 38,
+    "fields": {
+      "level": 4,
+      "text": "What is the purpose of the CSS property 'position'?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 112,
+    "fields": {
+      "level": 38,
+      "text": "Defines the positioning method used for an element",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 113,
+    "fields": {
+      "level": 38,
+      "text": "Changes the text alignment of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 114,
+    "fields": {
+      "level": 38,
+      "text": "Controls the spacing between lines of text",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 39,
+    "fields": {
+      "level": 4,
+      "text": "What does the CSS property 'float' do?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 115,
+    "fields": {
+      "level": 39,
+      "text": "Specifies whether an element should float to the left, right, or none",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 116,
+    "fields": {
+      "level": 39,
+      "text": "Changes the opacity of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 117,
+    "fields": {
+      "level": 39,
+      "text": "Defines the thickness of an element's border",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.question",
+    "pk": 40,
+    "fields": {
+    "level": 4,
+      "text": "What is the purpose of the CSS property 'z-index'?"
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 118,
+    "fields": {
+      "level": 40,
+      "text": "Controls the stacking order of positioned elements",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 119,
+    "fields": {
+      "level": 40,
+      "text": "Changes the text color of an element",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "test_service.answer",
+    "pk": 120,
+    "fields": {
+      "level": 40,
+      "text": "Sets the width of an element",
+      "is_correct": false
+    }
+  }
+]
