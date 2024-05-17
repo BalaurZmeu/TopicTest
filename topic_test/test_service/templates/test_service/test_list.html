@@ -1,10 +1,18 @@
-<html>
-<head>
-  <title>TopicTest</title>
-  {% load static %}
-  <link rel="stylesheet" href="{% static 'style/topic_test.css' %}">
-</head>
-<body>
-  <h1>Choose the test:</h1>
-</body>
-</html>
+{% extends "base_template.html" %}
+
+{% block content %}
+  <h1>Test List</h1>
+  {% if testsuite_list %}
+    <ul>
+      {% for test in testsuite_list %}
+        <li>
+          <a href="#">
+            {{ test.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>There are no tests.</p>
+  {% endif %}
+{% endblock %}
