@@ -17,9 +17,6 @@ def register(request):
         form = UserCreationForm()
     return render(request, 'test_service/user_register.html', {'form': form })
     
-def tests(request):
-    return render(request, 'test_service/test_list.html')
-    
 class TestListView(LoginRequiredMixin, generic.ListView):
     model = TestSuite
     template_name = 'test_service/test_list.html'
