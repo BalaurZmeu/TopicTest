@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from os.path import join
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # generate a key and paste it inside the '' quotemarks
@@ -64,7 +65,7 @@ ROOT_URLCONF = 'topic_test.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
