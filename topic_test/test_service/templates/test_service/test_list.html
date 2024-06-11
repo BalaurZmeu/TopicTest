@@ -6,7 +6,7 @@
     <ul>
       {% for test in testsuite_list %}
         <li>
-          <a href="#">
+          <a href="{% url 'testing' %}">
             {{ test.name }}
           </a>
         </li>

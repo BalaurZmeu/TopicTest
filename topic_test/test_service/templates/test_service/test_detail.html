@@ -1,0 +1,7 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+  <h1>{{ test.name }}</h1>
+  First Question<br><br>
+  <a href="{% url 'result' %}">View Results</a>
+{% endblock %}
