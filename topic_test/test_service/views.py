@@ -28,7 +28,7 @@ class TestListView(LoginRequiredMixin, generic.ListView):
             TestSuite.objects.all()
         )
 
-class TestDetailView(LoginRequiredMixin, generic.ListView):
+class TestDetailView(LoginRequiredMixin, generic.DetailView):
     model = TestSuite
     template_name = 'test_service/test_detail.html'
 
