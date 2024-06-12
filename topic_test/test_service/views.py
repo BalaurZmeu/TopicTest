@@ -3,6 +3,7 @@ from django.contrib.auth.forms import UserCreationForm
 from .models import TestSuite
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.views import generic
+from .models import TestSuite, Question, Answer
 
 def index(request):
     return render(request, 'index.html')
@@ -12,7 +13,7 @@ def register(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('tests')
+            return redirect('test_list')
     else:
         form = UserCreationForm()
     return render(request, 'test_service/user_register.html', {'form': form })
