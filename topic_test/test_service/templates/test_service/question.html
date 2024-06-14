@@ -1,0 +1,12 @@
+<form method="post">
+    {% csrf_token %}
+    <h2>{{ question.text }}</h2>
+    {% for answer in question.answer_set.all %}
+        <label>
+            <input type="radio" name="answer" value="{{ answer.id }}"> {{ answer.text }}
+        </label><br>
+    {% endfor %}
+    <button type="submit">Next</button>
+</form>
+<p>Question {{ index }} of {{ total }}</p>
+
