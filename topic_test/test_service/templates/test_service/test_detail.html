@@ -1,14 +1,7 @@
 {% extends "base_template.html" %}
 
 {% block content %}
-  <h3>{{ testsuite }}</h3>
-  First Question:<br><br>
-  {{ object.question_set.all|first }}<br><br>
-  {% for answer in object.question_set.first.answer_set.all %}
-    <div>
-      <input type="checkbox">
-      <label>{{ answer }}</label>
-  </div>
-  {% endfor %}
-  <a href="#">Next</a>
+  <h1>{{ test_suite.name }}</h1>
+  <p>{{ test_suite.description }}</p>
+  <a href="{% url 'question-view' test_suite.id 0 %}">Start Test</a>
 {% endblock %}

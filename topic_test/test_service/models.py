@@ -10,7 +10,7 @@ class TestSuite(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return reverse('question-view', args=[str(self.id)])
+        return reverse('test-detail', args=[str(self.id)])
         
     def get_questions(self):
         return self.question_set.all()
