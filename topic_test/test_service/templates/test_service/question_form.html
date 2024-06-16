@@ -1,7 +1,0 @@
-{% for answer in question.answer_set.all %}
-  <div>
-    <input type="checkbox" name="answers-{{ question.id }}" value="{{ answer.id }}" {% if answer.id in answered_choices %}checked{% endif %}>
-    <label>{{ answer.text }}</label>
-  </div>
-{% endfor %}
-

@@ -1,6 +1,9 @@
-<h2>Results</h2>
-<p>Correct Answers: {{ correct }} out of {{ total }}</p>
-<p>Percentage: {{ percentage }}%</p>
+{% extends "base_template.html" %}
 
-<a href="{% url 'test-list' %}">Take another test</a><br>
-<a href="{% url 'index' %}">Home</a>
+{% block content %}
+<div class="col-sm-6">
+  <h2>Results</h2>
+  <p>Correct Answers: {{ correct }} out of {{ total }}</p>
+  <p>Percentage: {{ percentage }}%</p>
+</div>
+{% endblock %}

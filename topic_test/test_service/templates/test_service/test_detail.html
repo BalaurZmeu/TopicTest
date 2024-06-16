@@ -1,7 +1,9 @@
 {% extends "base_template.html" %}
 
 {% block content %}
-  <h1>{{ test_suite.name }}</h1>
-  <p>{{ test_suite.description }}</p>
-  <a href="{% url 'question-view' test_suite.id 0 %}">Start Test</a>
+  <div class="col-sm-6">
+    <h1>{{ test_suite.name }}</h1>
+    <p>{{ test_suite.description }}</p>
+    <a href="{% url 'question-view' test_suite.id 0 %}">Start Test</a>
+  </div>
 {% endblock %}
