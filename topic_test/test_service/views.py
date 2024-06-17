@@ -5,8 +5,10 @@ from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMix
 from django.views import generic
 from .models import TestSuite, Question, Answer
 
+
 def index(request):
     return render(request, 'index.html')
+
 
 def register(request):
     if request.method == 'POST':
@@ -17,6 +19,7 @@ def register(request):
     else:
         form = UserCreationForm()
     return render(request, 'test_service/user_register.html', {'form': form })
+
     
 class TestListView(LoginRequiredMixin, generic.ListView):
     model = TestSuite
@@ -28,14 +31,12 @@ class TestListView(LoginRequiredMixin, generic.ListView):
             TestSuite.objects.all()
         )
 
+
 class TestDetailView(LoginRequiredMixin, generic.DetailView):
     model = TestSuite
     template_name = 'test_service/test_detail.html'
     context_object_name = 'test_suite'
 
-# class TestResultView(LoginRequiredMixin, generic.ListView):
-#    model = TestSuite
-#    template_name = 'test_service/test_result.html'
 
 class QuestionView(LoginRequiredMixin, generic.View):
     def get(self, request, test_id, question_index):
@@ -58,6 +59,7 @@ class QuestionView(LoginRequiredMixin, generic.View):
             return redirect('question-view', test_id=test_id, question_index=next_index)
         else:
             return redirect('test-result', test_id=test_id)
+
 
 class TestResultView(LoginRequiredMixin, generic.View):
     def get(self, request, test_id):
