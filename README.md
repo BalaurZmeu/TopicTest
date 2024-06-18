@@ -54,7 +54,28 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### 3. Create superuser.
+#### 3. Add a secret key to the settings.py file.
+Generate a Django secret key using one of the websites (e.g. https://djecrety.ir/). 
+Navigate to `TopicTest-main/topic_test/topic_test`
+Open the settings.py file, add the secret key:
+```python
+...
+
+# SECURITY WARNING: keep the secret key used in production secret!
+# generate a key and paste it inside the '' quotemarks
+# or use this one:  -h6n3+w)@p6)y8zmodzmj31v87h#(xn-0_2-0^^$0%6vmiwf-g
+SECRET_KEY = ''
+
+...
+```
+Save the file.
+
+#### 4. Create a database.
+```bash
+python manage.py migrate
+```
+
+#### 5. Create superuser.
 Navigate to the topic_test directory:
 ```bash
 cd topic_test
@@ -65,20 +86,21 @@ python manage.py createsuperuser
 ```
 Enter a name and a password.
 
-#### 4. Load json tests into the database.
+#### 6. Load json tests into the database.
 There are some tests on programming inside the json_tests directory.
 Run this command:
 ```bash
 python manage.py loaddata ./json_tests/tests.json
 ```
 
-#### 5. Run the development server.
+#### 7. Run the development server.
 ```bash
 python manage.py runserver 8080
 ```
 Then open your browser and enter the address `localhost:8080`
-Now you can register a user and take any of the tests.
+Now you can create regular users using the register page.
+Log in using a regular account or the superuser account and take any of the tests.
 
-If you want to create a new test, edit existing tests or manage users,
+If you want to create a new test, edit existing tests, or manage users,
 you can do this by accessing the admin page `localhost:8080/admin`.
-There you will be asked to type in the name and password that you created earlier.
+There you will be asked to type in the name and password of the superuser.
