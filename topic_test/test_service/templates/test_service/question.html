@@ -7,7 +7,7 @@
       <h2>{{ question.text }}</h2>
       {% for answer in question.answer_set.all %}
         <label>
-            <input type="radio" name="answer" value="{{ answer.id }}"> {{ answer.text }}
+            <input type="checkbox" name="answer" value="{{ answer.id }}"> {{ answer.text }}
         </label><br><br>
       {% endfor %}
       <button type="submit">Next</button>
@@ -16,4 +16,3 @@
 <br>
 <p>Question {{ index }} of {{ total }}</p>
 {% endblock %}
-
