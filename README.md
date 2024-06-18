@@ -1,8 +1,5 @@
 # TopicTest - a testing service.
 
-### WORK IN PROGRESS
-### The project is not finished
-
 The original text of the test task was found while googling the search query **"junior Python developer test task"** 
 
 [Here's the link](https://qna.habr.com/q/212981)
@@ -37,3 +34,6 @@ In the admin panel, administrators can:
 
 There are validations to ensure there is at least one correct option per question and that not all options are marked as correct. Admins can also delete and modify questions/answers/correct answers when editing a test.
 
+---
+
+### How to use it:
