@@ -43,15 +43,25 @@ class QuestionView(LoginRequiredMixin, generic.View):
         test = get_object_or_404(TestSuite, id=test_id)
         questions = test.get_questions()
         question = questions[question_index]
-        return render(request, 'test_service/question.html', {'question': question, 'index': question_index + 1, 'total': questions.count()})
+        return render(request, 'test_service/question.html', {
+            'question': question,
+            'index': question_index + 1,
+            'total': questions.count()
+        })
 
     def post(self, request, test_id, question_index):
-        selected_answer_id = request.POST.get('answer')
-        if not selected_answer_id:
+        selected_answer_ids = request.POST.getlist('answer')
+        if not selected_answer_ids:
             return redirect('question-view', test_id=test_id, question_index=question_index)
         
-        selected_answer = get_object_or_404(Answer, id=selected_answer_id)
-        request.session[f'answer_{question_index}'] = selected_answer.is_correct
+        answers = Answer.objects.filter(id__in=selected_answer_ids)
+        all_correct = all(answer.is_correct for answer in answers)
+        correct_answers_count = Answer.objects.filter(level__id=answers[0].level_id, is_correct=True).count()
+        
+        if len(selected_answer_ids) == correct_answers_count and all_correct:
+            request.session[f'answer_{question_index}'] = True
+        else:
+            request.session[f'answer_{question_index}'] = False
 
         next_index = question_index + 1
         test = get_object_or_404(TestSuite, id=test_id)
