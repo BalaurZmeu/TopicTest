@@ -71,15 +71,13 @@ SECRET_KEY = ''
 Save the file.
 
 #### 4. Create a database.
+Navigate to `TopicTest-main/topic_test`
+Run this command to create a database:
 ```bash
 python manage.py migrate
 ```
 
 #### 5. Create superuser.
-Navigate to the topic_test directory:
-```bash
-cd topic_test
-```
 Create superuser using this command:
 ```bash
 python manage.py createsuperuser
